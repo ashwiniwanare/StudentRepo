@@ -11,4 +11,11 @@ public String m1()
 {
 	return "ashwini";
 }
+
+
+@GetMapping("/save")
+public String save() {
+	
+	return "Data Saved";
+}
 }
